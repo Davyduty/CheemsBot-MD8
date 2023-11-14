@@ -1,12 +1,12 @@
 
 
-<h1 align="center">ꪶ𝗖𝗵𝗲𝗲𝗺𝘀 𝗕𝗼𝘁-𝗠𝗗 𝗩8ꫂ<br></h1>
+<h1 align="center">ꪶDavyduty the wizard 𝗕𝗼𝘁-𝗠𝗗 𝗩8ꫂ<br></h1>
 <p align="center">
 <img src="https://t4.ftcdn.net/jpg/05/51/62/17/240_F_551621792_lfN8ITBCI90zoAgFMUqFSXUG74mkgXvh.jpg" />
 </p>
 
 <p align="center">
-Cheems Bot Multi Device is a automated whatsapp bot created by <a href="https://github.com/DGXeon" target="_blank">Xeon</a> using <a href="https://github.com/adiwajshing/Baileys" target="_blank">Baileys</a> and <a href="https://github.com/nodejs" target="_blank">Nodejs</a>. Dont forget to give a star bro.
+Davyduty the wizard Bot Multi Device is a automated whatsapp bot created by <a href="https://github.com/DGXeon" target="_blank">Davyduty the wizard</a> using <a href="https://github.com/adiwajshing/Baileys" target="_blank">Baileys</a> and <a href="https://github.com/nodejs" target="_blank">Nodejs</a>. Capture the caption bro.
 </p>
 
 <p align="center">
