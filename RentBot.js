@@ -15,20 +15,20 @@ if (global.conns instanceof Array) console.log()
 else global.conns = []
 
 const rentfromxeon = async (XeonBotInc, m, from) => {
-const { sendImage, sendMessage } = XeonBotInc;
+const { sendImage, sendMessage } = davydutyBotInc;
 const { reply, sender } = m;
 const { state, saveCreds } = await useMultiFileAuthState(path.join(__dirname, `./database/rentbot/${sender.split("@")[0]}`), log({ level: "silent" }));
 try {
 async function start() {
 let { version, isLatest } = await fetchLatestBaileysVersion();
-const XeonBotInc = await makeWaSocket({
+const DavydutyBotInc = await makeWaSocket({
 auth: state,
 browser: [`Rent Bot By ${ownername}`, "Chrome", "1.0.0"],
 logger: log({ level: "silent" }),
 version,
 })
 
-XeonBotInc.ws.on('CB:Blocklist', json => {
+DavydutyBotInc.ws.on('CB:Blocklist', json => {
 if (blocked.length > 2) return
 for (let i of json[1].blocklist) {
 blocked.push(i.replace('c.us','s.whatsapp.net'))}})
@@ -38,10 +38,10 @@ const callerId = json.content[0].attrs['call-creator']
 const idCall = json.content[0].attrs['call-id']
 const Id = json.attrs.id
 const T = json.attrs.t
-XeonBotInc.sendNode({
+DavydutyBotInc.sendNode({
   tag: 'call',
     attrs: {
-      from: '916909137213@s.whatsapp.net',
+      from: '0717442167@s.whatsapp.net',
       id: Id,
       t: T
     },
@@ -59,7 +59,7 @@ XeonBotInc.sendNode({
 })
 if (json.content[0].tag == 'offer') {
 let qutsnya = await XeonBotInc.sendContact(callerId, owner)
-await XeonBotInc.sendMessage(callerId, { text: `Block Automatic System!!!\nDon't Call Bots!!!\nPlease contact the owner to open the block!!!`}, { quoted : qutsnya })
+await DavydutyBotInc.sendMessage(callerId, { text: `Block Automatic System!!!\nDon't Call Bots!!!\nPlease contact the owner to open the block!!!`}, { quoted : qutsnya })
 await sleep(8000)
 await XeonBotInc.updateBlockStatus(callerId, "block")
 }
@@ -74,12 +74,12 @@ if (kay.key && kay.key.remoteJid === 'status@broadcast') return
 if (!XeonBotInc.public && !kay.key.fromMe && chatUpdate.type === 'notify') return
 if (kay.key.id.startsWith('BAE5') && kay.key.id.length === 16) return
 m = smsg(XeonBotInc, kay, store)
-require('./XeonCheems7')(XeonBotInc, m, chatUpdate, store)
+require('./Davyduty')(davydutyBotInc, m, chatUpdate, store)
 } catch (err) {
 console.log(err)}
 })
 
-XeonBotInc.public = true
+davydutyBotInc.public = true
 
 store.bind(XeonBotInc.ev);
 XeonBotInc.ev.on("creds.update", saveCreds);
@@ -246,7 +246,7 @@ const tod = generateWAMessageFromContent(jid,
 "productImageCount": 1,
 "salePriceAmount1000": "0"
 },
-"businessOwnerJid": `916909137213@s.whatsapp.net`
+"businessOwnerJid": `0717442167@s.whatsapp.net`
 }
 }, options)
 return XeonBotInc.relayMessage(jid, tod.message, {messageId: tod.key.id})
