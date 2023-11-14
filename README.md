@@ -2,7 +2,7 @@
 
 <h1 align="center">ꪶ𝗖𝗵𝗲𝗲𝗺𝘀 𝗕𝗼𝘁-𝗠𝗗 𝗩8ꫂ<br></h1>
 <p align="center">
-<img src="https://t4.ftcdn.net/jpg/01/41/83/75/240_F_141837561_KMiayrCd4AyfCsEf1coz9s2hMl44m99x.jpg" />
+<img src="https://t4.ftcdn.net/jpg/05/51/62/17/240_F_551621792_lfN8ITBCI90zoAgFMUqFSXUG74mkgXvh.jpg" />
 </p>
 
 <p align="center">
