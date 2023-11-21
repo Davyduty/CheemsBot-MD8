@@ -93,10 +93,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/DGXeon/CheemsBot-MD8.git"
+    "url": "https://github.com/Davyduty/CheemsBot-MD8.git"
   },
   "bugs": {
-    "url": "https://github.com/DGXeon/CheemsBot-MD8/issues"
+    "url": "https://github.com/Davyduty/CheemsBot-MD8"
   },
   "homepage": "https://github.com/DGXeon/CheemsBot-MD8/#readme"
 }
